@@ -182,7 +182,7 @@ def command(text,chat,firstName):
         sendHelptext(chat)
 
     elif text == 'Ask a Question':
-        send_message("I am listeing. Shoot.",chat)
+        send_message("I am listening. Shoot.",chat)
         global action
         action = 'Ask a Question'
 
